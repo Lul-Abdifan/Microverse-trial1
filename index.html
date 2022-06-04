@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8">
     <title>Fork Me! FCC: Test Suite Template</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     
   </head>
 
@@ -22,19 +22,23 @@
     - The freeCodeCamp Team
 
     -->
+         <header>
       <h1 id="title">title</h1>
       <p id="description">describtion</p>
+         </header>
       <form  id="survey-form">
 
 
-        <label for="name" id="name-label" >name-label</label>
-        <input type="text" id="name" required placeholder="enter name" />
-        <label for="email" id="email-label" >email-label</label>
+        <label for="name" id="name-label" >name-label</label><br>
+        <input type="text" id="name" required placeholder="enter name" /><br>
+        <label for="email" id="email-label" >email-label</label><br>
 
-        <input type="email" id="email" required  placeholder="enter email"/>
-        <label for="number" id="number-label"  placeholder="enter number between 0 and 100">number-label</label>
+        <input type="email" id="email" required  placeholder="enter email"/><br>
+        <label for="number" id="number-label"  placeholder="enter number between 0 and 100">number-label</label> <br>
 
-        <input type="number" id="number" min="0" max="100"  placeholder="number">
+        <input type="number" id="number" min="0" max="100"  placeholder="number"><br>
+
+        <div class="middle-div">
 
         <input type="radio" id="html" name="fav_language" value="HTML">
         <label for="html">HTML</label><br>
@@ -55,9 +59,11 @@
           <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
           <label for="vehicle3"> I have a boat</label><br>
         </div>
-
+      </div>
         <textarea>textarea</textarea>
-        <button id="submit"></button>
+        <div class="footer">
+  <input type="submit" class="div-Button" value="Submit">
+         </div>
       </form>
     <script  src="js/index.js"></script>
   </body>

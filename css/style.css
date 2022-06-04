@@ -1,0 +1,40 @@
+*
+{
+    padding:0px;
+    margin:0px auto;
+    background-color: orange;
+}
+body
+{
+width:500px;
+margin:30px auto;
+color:white;
+}
+form
+{
+margin:20px auto;
+
+
+}
+.input,
+textarea
+{
+    margin:50px auto;
+    width:100%;
+      color:white;    
+}
+.middle-div
+{
+    margin-top:30px;
+}
+.div-Button
+{
+    width:100%;
+    color:white;
+    background-color:green;
+}
+
+
+
+
+
